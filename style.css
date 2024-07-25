@@ -79,6 +79,7 @@ header {
     font-size: 2rem;
     margin-bottom: 1rem;
     text-align: center;
+    color: rgba(131, 42, 233, 1);
 }
 
 .menu-items {
@@ -177,12 +178,12 @@ header {
 
     .navbar-links {
         display: none;
-        width: 100%;
     }
 
     .navbar-links ul {
         flex-direction: column;
         align-items: center;
+        
     }
 
     .navbar-links li {
