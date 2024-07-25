@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(86, 179, 233);
+  background: linear-gradient(
+    90deg,
+    rgba(86, 179, 233, 1) 16%,
+    rgba(131, 42, 233, 1) 75%
+  );
+}
+
+.container {
+  background-color: rgb(245, 245, 245);
+  padding: 6px;
+  width: 350px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 darkgrey;
+}
+
+form {
+  position: absolute;
+  margin-top: 80px;
+  transition: 0.5s;
+  width: 300px;
+  height: 400px;
+}
+
+.buttonsForm {
+  margin-top: 40px;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 0 0 7px 0 blueviolet;
+}
+
+.buttonsForm button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  position: relative;
+  padding: 10px 29px;
+}
+
+.btnColor {
+  position: absolute;
+  width: 108px;
+  height: 100%;
+  background: linear-gradient(to right, #56b3e9, #832ae9);
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: none;
+  margin-top: 40px;
+  border-radius: 60px;
+  padding: 8px 0 8px 35px;
+  outline: none;
+  width: 100%;
+  color: #000000;
+  background-color: #d3c5ec;
+}
+
+button[type="submit"] {
+  background: #832ae9;
+  color: white;
+  border-radius: 30px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px 0 8px 15px;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.fa {
+  width: 100%;
+  margin-left: 133px;
+  margin-top: 20px;
+}
+
+.divCheck {
+  margin: 15px 0 0 5px;
+  width: 80%;
+  font-size: 12px;
+}
+
+#signin {
+  left: 25px;
+}
+
+#signup {
+  left: 450px;
+}
+
+i {
+  position: absolute;
+  left: 0;
+  padding: 10px 10px;
+}
+
+.iEmail {
+  top: 36px;
+  color: #000000;
+}
+.iEmail2 {
+  top: 38px;
+  color: #000000;
+}
+
+.iPassword {
+  top: 108px;
+}
+
+.iPassword2 {
+  top: 182px;
+}
+.iPassword3 {
+  top: 110px;
+}
+input[placeholder="Email"]::placeholder {
+  color: #8d42ca;
+}
+input[placeholder="Senha"]::placeholder {
+  color: #8d42ca;
+}
